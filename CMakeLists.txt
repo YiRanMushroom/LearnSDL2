@@ -16,3 +16,5 @@ add_custom_command(TARGET ${ProjectName} POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
         "${PROJECT_SOURCE_DIR}/dependencies/SDL2-2.30.5/x86_64-w64-mingw32/bin/SDL2.dll"
         $<TARGET_FILE_DIR:${ProjectName}>)
+
+SET(CMAKE_CXX_STANDARD 20)

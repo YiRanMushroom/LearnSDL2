@@ -18,5 +18,3 @@ add_custom_command(TARGET ${ProjectName} POST_BUILD
         $<TARGET_FILE_DIR:${ProjectName}>)
 
 set(CMAKE_CXX_STANDARD 20)
-
-
